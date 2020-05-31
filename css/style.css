@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 40px;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 100px;
+    font-family: arial;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
+h1.small {
+    font-size: 50px;
+}
+
+h1.border {
+    border: 10px solid red;
+    padding: 20px;
+}
+
+h1.big {
+    font-size: 200px;
+}
